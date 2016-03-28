@@ -1,0 +1,22 @@
+{
+  "name": "sal-driver-atmel-winc1500",
+  "version": "1.0.0",
+  "description": "Atmel Winc1500 driver",
+  "keywords": [
+  	"mbed",
+    "network",
+    "winc1500"
+  ],
+  "author": "~@atmel.com",
+  "homepage": "https://github.com/ARMmbed/mbed-client-mbed-os",
+  "license": "Apache-2.0",
+  "dependencies": {
+		"mbed-hal-atmel-samg55j19": "~1.0.0",
+		"sal-stack-atmel": "~1.0.0"
+  },
+  "extraIncludes": [
+		"source",
+		"source/winc1500"
+  ],
+  "targetDependencies": {}
+}
